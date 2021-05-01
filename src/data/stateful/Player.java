@@ -1,7 +1,7 @@
-package Data.Stateful;
+package data.stateful;
 
-import Data.Attribute;
-import Data.Position;
+import data.Attribute;
+import data.Position;
 
 import java.util.HashMap;
 import java.util.Random;

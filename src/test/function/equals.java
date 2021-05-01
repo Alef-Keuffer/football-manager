@@ -1,5 +1,6 @@
-package Test.Function;
+package test.function;
 
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class equals {
@@ -59,6 +60,7 @@ public class equals {
      *
      * @param x non-null value
      */
+    @Test
     public static <X> void is_always_false_when_compared_to_null(final X x) {
         assertNotNull(x);
         assertFalse(x.equals(null));
