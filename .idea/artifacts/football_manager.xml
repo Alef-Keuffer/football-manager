@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="football-manager">
+    <output-path>$PROJECT_DIR$/out/artifacts/football_manager</output-path>
+    <root id="archive" name="football-manager.jar">
+      <element id="module-source" name="football-manager" />
+      <element id="dir-copy" path="$PROJECT_DIR$/Diagrams" />
+    </root>
+  </artifact>
+</component>
