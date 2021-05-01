@@ -1,7 +1,6 @@
-package Data.Stateful;
+package data.stateful;
 
-import Data.Stateful.Player;
-import Data.Team;
+import data.Team;
 
 import java.util.ArrayList;
 

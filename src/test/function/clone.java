@@ -1,4 +1,4 @@
-package Test.Function;
+package test.function;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -50,8 +50,7 @@ public enum clone {
     public static <X> void class_is_class_of_object_being_cloned(final X x) {
         try { assertTrue(clone(x).getClass() == x); }
         catch (NoSuchMethodException e) { fail(not_implemented(e), e); }
-        catch (IllegalAccessException e) { fail(e); }
-        catch (InvocationTargetException e) { fail(e); }
+        catch (IllegalAccessException | InvocationTargetException e) { fail(e); }
     }
 
     /**
@@ -60,7 +59,6 @@ public enum clone {
     public static <X> void equals_object_being_cloned(final X x) {
         try { assertTrue(clone(x).equals(x));}
         catch (NoSuchMethodException e) { fail(not_implemented(e), e);}
-        catch (IllegalAccessException e) { fail(e); }
-        catch (InvocationTargetException e) { fail(e); }
+        catch (IllegalAccessException | InvocationTargetException e) { fail(e); }
     }
 }

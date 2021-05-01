@@ -1,4 +1,4 @@
-package Test.Function;
+package test.function;
 
 import static org.junit.jupiter.api.Assertions.*;
 
