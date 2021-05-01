@@ -60,7 +60,6 @@ public class equals {
      *
      * @param x non-null value
      */
-    @Test
     public static <X> void is_always_false_when_compared_to_null(final X x) {
         assertNotNull(x);
         assertFalse(x.equals(null));
