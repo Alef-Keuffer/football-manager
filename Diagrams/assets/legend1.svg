@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+
+ <metadata id="metadata7">image/svg+xml</metadata>
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#ffffff" height="348.000007" id="svg_1" stroke="#000000" stroke-width="5" width="615.999985" x="-162.999985" y="-55.000006"/>
+  <g id="layer1" transform="translate(0,-852.36214)">
+   <path d="m26.87006,875.58544l149.90664,0" fill="none" fill-rule="evenodd" id="path4165" stroke="#000000" stroke-miterlimit="4" stroke-width="2"/>
+   <path d="m26.87006,906.13245l149.90664,0" fill="none" fill-rule="evenodd" id="path4165-2" stroke="#000000" stroke-miterlimit="4" stroke-width="2"/>
+   <path d="m26.87006,936.67946l149.90664,0" fill="none" fill-rule="evenodd" id="path4165-4" stroke="#000000" stroke-dasharray="12,12" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="2"/>
+   <path d="m26.87006,967.22647l149.90664,0" fill="none" fill-rule="evenodd" id="path4165-1" stroke="#000000" stroke-dasharray="12,12" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="2"/>
+   <path d="m26.87006,997.77349l149.90664,0" fill="none" fill-rule="evenodd" id="path4165-8" stroke="#000000" stroke-miterlimit="4" stroke-width="2"/>
+   <path d="m26.87006,1028.3205l149.90664,0" fill="none" fill-rule="evenodd" id="path4165-9" stroke="#000000" stroke-miterlimit="4" stroke-width="2"/>
+   <g id="g4260-3" transform="matrix(1.012986,0,0,0.72010069,0.077199,336.69521)">
+    <path d="m155.12633,861.71329l20.79117,13.83787" fill="none" fill-rule="evenodd" id="path4219-0" stroke="#000000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.834388"/>
+    <path d="m155.14816,889.33281l20.79117,-13.83787" fill="none" fill-rule="evenodd" id="path4219-5-6" stroke="#000000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.834388"/>
+   </g>
+   <g id="g4260-3-7" transform="matrix(1.012986,0,0,0.72010069,0.077199,245.06405)">
+    <path d="m155.12633,861.71329l20.79117,13.83787" fill="none" fill-rule="evenodd" id="path4219-0-9" stroke="#000000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.834388"/>
+    <path d="m155.14816,889.33281l20.79117,-13.83787" fill="none" fill-rule="evenodd" id="path4219-5-6-1" stroke="#000000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.834388"/>
+   </g>
+   <g fill="#000000" id="g4492" transform="translate(-99.129681,61.875)">
+    <path d="m255.64453,104.66406l-19.49023,9.37891l20.17187,10.21875l19.51953,-9.89649l-20.20117,-9.70117z" fill="#000000" fill-rule="evenodd" id="path4478" stroke-width="1px" transform="translate(0,852.36214)"/>
+    <g fill="#000000" fill-rule="evenodd" id="g4359-0" stroke="#000000" transform="translate(26.889319,51.871045)">
+     <g fill="#000000" fill-rule="evenodd" id="g4260-3-7-0-5" stroke="#000000" transform="matrix(1.012986,0,0,0.72010069,72.317561,284.39739)">
+      <path d="m154.57875,861.25762l21.33875,14.29354" fill="#000000" fill-rule="evenodd" id="path4219-0-9-5-2" stroke="#000000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.834388"/>
+      <path d="m155.14816,889.33281l20.79117,-13.83787" fill="#000000" fill-rule="evenodd" id="path4219-5-6-1-4-1" stroke="#000000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.834388"/>
+     </g>
+     <g fill="#000000" fill-rule="evenodd" id="g4260-3-7-1-9" stroke="#000000" transform="matrix(-1.012986,0,0,0.72010069,385.84911,284.06405)">
+      <path d="m155.12633,861.71329l20.79117,13.83787" fill="#000000" fill-rule="evenodd" id="path4219-0-9-0-9" stroke="#000000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.834388"/>
+      <path d="m154.36286,889.82379l21.57647,-14.32885" fill="#000000" fill-rule="evenodd" id="path4219-5-6-1-1-4" stroke="#000000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.834388"/>
+     </g>
+    </g>
+   </g>
+   <g id="g4553" transform="translate(-80.391354,-8.8388347)">
+    <g fill="#000000" id="g4492-0" transform="translate(-18.738327,39.823578)">
+     <path d="m255.64453,104.66406l-19.49023,9.37891l20.17187,10.21875l19.51953,-9.89649l-20.20117,-9.70117z" fill="#ffffff" fill-rule="evenodd" id="path4478-6" stroke-width="1px" transform="translate(0,852.36214)"/>
+     <g fill="#000000" fill-rule="evenodd" id="g4359-0-4" stroke="#000000" transform="translate(26.889319,51.871045)">
+      <g fill="#000000" fill-rule="evenodd" id="g4260-3-7-0-5-3" stroke="#000000" transform="matrix(1.012986,0,0,0.72010069,72.317561,284.39739)">
+       <path d="m154.57875,861.25762l21.33875,14.29354" fill="#000000" fill-rule="evenodd" id="path4219-0-9-5-2-5" stroke="#000000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.834388"/>
+       <path d="m155.14816,889.33281l20.79117,-13.83787" fill="#000000" fill-rule="evenodd" id="path4219-5-6-1-4-1-8" stroke="#000000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.834388"/>
+      </g>
+      <g fill="#000000" fill-rule="evenodd" id="g4260-3-7-1-9-8" stroke="#000000" transform="matrix(-1.012986,0,0,0.72010069,385.84911,284.06405)">
+       <path d="m155.12633,861.71329l20.79117,13.83787" fill="#000000" fill-rule="evenodd" id="path4219-0-9-0-9-0" stroke="#000000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.834388"/>
+       <path d="m154.36286,889.82379l21.57647,-14.32885" fill="#000000" fill-rule="evenodd" id="path4219-5-6-1-1-4-3" stroke="#000000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.834388"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="g4573-8" transform="matrix(1,0,0,-1,-76.573695,1788.6441)">
+    <g id="g4570-8">
+     <path d="m233.875,892.61214l-0.0625,-19.5l20.0625,9.25l-20,10.25z" fill="#ffffff" fill-rule="evenodd" id="path4568-2" stroke-width="1px"/>
+    </g>
+    <g id="g4398-9">
+     <g id="g4260-3-7-5-6" transform="matrix(1.012986,0,0,0.72010069,76.650894,252.23072)">
+      <path d="m155.12633,861.71329l20.79117,13.83787" fill="none" fill-rule="evenodd" id="path4219-0-9-52-8" stroke="#000000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.834388"/>
+      <path d="m155.14816,889.33281l20.79117,-13.83787" fill="none" fill-rule="evenodd" id="path4219-5-6-1-6-7" stroke="#000000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.834388"/>
+     </g>
+     <path d="m233.5824,872.77787l0.0843,19.83427" fill="none" fill-rule="evenodd" id="path4394-2" stroke="#000000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5"/>
+    </g>
+   </g>
+   <g id="g4573-8-2" transform="matrix(1,0,0,-1,-76.573695,1819.0571)">
+    <g id="g4570-8-1">
+     <path d="m233.875,892.61214l-0.0625,-19.5l20.0625,9.25l-20,10.25z" fill="#ffffff" fill-rule="evenodd" id="path4568-2-8" stroke-width="1px"/>
+    </g>
+    <g id="g4398-9-8">
+     <g id="g4260-3-7-5-6-7" transform="matrix(1.012986,0,0,0.72010069,76.650894,252.23072)">
+      <path d="m155.12633,861.71329l20.79117,13.83787" fill="none" fill-rule="evenodd" id="path4219-0-9-52-8-2" stroke="#000000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.834388"/>
+      <path d="m155.14816,889.33281l20.79117,-13.83787" fill="none" fill-rule="evenodd" id="path4219-5-6-1-6-7-3" stroke="#000000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.834388"/>
+     </g>
+     <path d="m233.5824,872.77787l0.0843,19.83427" fill="none" fill-rule="evenodd" id="path4394-2-1" stroke="#000000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5"/>
+    </g>
+   </g>
+   <text fill="#000000" fill-rule="nonzero" font-family="Sans" font-size="12.55744px" font-style="normal" font-weight="normal" id="text4676" stroke-width="1px" text-anchor="start" transform="translate(-10, -3) scale(0.995426, 1.0046)" x="193.38458" xml:space="preserve" y="874.42792">
+    <tspan id="tspan4678" x="193.38458" y="874.42792">Association</tspan>
+   </text>
+   <text fill="#000000" fill-rule="nonzero" font-family="Sans" font-size="12.55744px" font-style="normal" font-weight="normal" id="text4680" stroke-width="1px" text-anchor="start" transform="translate(-10, -3) scale(0.995426, 1.0046)" x="192.25023" xml:space="preserve" y="904.96759">
+    <tspan id="tspan4682" x="192.25023" y="904.96759">Inheritance</tspan>
+   </text>
+   <text fill="#000000" fill-rule="nonzero" font-family="Sans" font-size="12.55744px" font-style="normal" font-weight="normal" id="text4684" stroke-width="1px" text-anchor="start" transform="translate(-10, -3) scale(0.995426, 1.0046)" x="192.34221" xml:space="preserve" y="927.65887">
+    <tspan id="tspan4686" x="192.34221" y="927.65887">Realization /</tspan>
+    <tspan id="tspan4688" x="192.34221" y="943.35565">Implementation</tspan>
+   </text>
+   <text fill="#000000" fill-rule="nonzero" font-family="Sans" font-size="12.55744px" font-style="normal" font-weight="normal" id="text4690" stroke-width="1px" text-anchor="start" transform="translate(-10, -3) scale(0.995426, 1.0046)" x="192.65492" xml:space="preserve" y="966.90845">
+    <tspan id="tspan4692" x="192.65492" y="966.90845">Dependency</tspan>
+   </text>
+   <text fill="#000000" fill-rule="nonzero" font-family="Sans" font-size="12.55744px" font-style="normal" font-weight="normal" id="text4694" stroke-width="1px" text-anchor="start" transform="translate(-10, -3) scale(0.995426, 1.0046)" x="193.38458" xml:space="preserve" y="996.14832">
+    <tspan id="tspan4696" x="193.38458" y="996.14832">Aggregation</tspan>
+   </text>
+   <text fill="#000000" fill-rule="nonzero" font-family="Sans" font-size="12.55744px" font-style="normal" font-weight="normal" id="text4698" stroke-width="1px" text-anchor="start" transform="translate(-10, -3) scale(0.995426, 1.0046)" x="192.25023" xml:space="preserve" y="1027.1265">
+    <tspan id="tspan4700" x="192.25023" y="1027.1265">Composition</tspan>
+   </text>
+  </g>
+ </g>
+</svg>
