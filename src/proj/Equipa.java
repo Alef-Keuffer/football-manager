@@ -9,26 +9,24 @@ public class Equipa {
     private List<Jogador> jogadores;
 
     public Equipa(String nomeE) {
-        nome=nomeE;
+        nome = nomeE;
         jogadores = new ArrayList<>();
     }
 
-    public static Equipa parse(String input){
+    public int numeroJogadores() { return jogadores.size(); }
+
+    public static Equipa parse(String input) {
         String[] campos = input.split(",");
         return new Equipa(campos[0]);
     }
 
-    public void insereJogador(Jogador j) {
-        jogadores.add(j.clone());
-    }
+    public void insereJogador(Jogador j) { jogadores.add(j.clone()); }
 
-    public String getNome(){
-        return nome;
-    }
+    public String getNome() { return nome; }
 
-    public String toString(){
+    public String toString() {
         StringBuilder r = new StringBuilder("Equipa:" + nome + "\n");
-        for (Jogador j : jogadores){
+        for (Jogador j : jogadores) {
             r.append(j.toString());
         }
         return r.toString();
