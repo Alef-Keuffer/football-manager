@@ -5,7 +5,9 @@ public class Avancado extends Jogador {
         super(nomeJ, numeroJ, vel, res, des, imp, cab, rem, p);
     }
 
-    public static Avancado parse(String input){
+    public Avancado(String nomej, int numeroJ) { super(nomej, numeroJ); }
+
+    public static Avancado parse(String input) {
         String[] campos = input.split(",");
         return new Avancado(campos[0], Integer.parseInt(campos[1]),
                 Integer.parseInt(campos[2]),

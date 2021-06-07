@@ -1,10 +1,17 @@
 package proj;
 
+import utils.function.Probability;
+
 public class GuardaRedes extends Jogador{
     private int elasticidade;
     public GuardaRedes (String nomeJ, int numeroJ, int vel, int res, int des, int imp, int cab, int rem, int p, int elast) {
         super(nomeJ, numeroJ, vel, res, des, imp, cab, rem, p);
         elasticidade = elast;
+    }
+
+    public GuardaRedes(String nomeJ, int numeroJ){
+        super(nomeJ, numeroJ);
+        elasticidade = Probability.generateAttributeValue();
     }
 
     public static GuardaRedes parse(String input){

@@ -1,10 +1,17 @@
 package proj;
 
+import utils.function.Probability;
+
 public class Medio extends Jogador {
     private int recuperacao;
     public Medio(String nomeJ, int numeroJ, int vel, int res, int des, int imp, int cab, int rem, int p, int rec) {
         super(nomeJ, numeroJ, vel, res, des, imp, cab, rem, p);
         recuperacao = rec;
+    }
+
+    public Medio(String nomeJ, int numeroJ){
+        super(nomeJ,numeroJ);
+        recuperacao = Probability.generateAttributeValue();
     }
 
     public static Medio parse(String input){

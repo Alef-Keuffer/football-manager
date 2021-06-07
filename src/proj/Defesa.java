@@ -5,7 +5,9 @@ public class Defesa extends Jogador {
         super(nomeJ, numeroJ, vel, res, des, imp, cab, rem, p);
     }
 
-    public static Defesa parse(String input){
+    public Defesa(String nomeJ, int numeroJ) { super(nomeJ, numeroJ); }
+
+    public static Defesa parse(String input) {
         String[] campos = input.split(",");
         return new Defesa(campos[0], Integer.parseInt(campos[1]),
                 Integer.parseInt(campos[2]),

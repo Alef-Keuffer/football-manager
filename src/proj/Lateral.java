@@ -1,13 +1,21 @@
 package proj;
 
-public class Lateral extends Jogador{
+import utils.function.Probability;
+
+public class Lateral extends Jogador {
     private int cruzamento;
+
     public Lateral(String nomeJ, int numeroJ, int vel, int res, int des, int imp, int cab, int rem, int p, int cruz) {
         super(nomeJ, numeroJ, vel, res, des, imp, cab, rem, p);
         cruzamento = cruz;
     }
 
-    public static Lateral parse(String input){
+    public Lateral(String nomeJ, int numeroJ){
+        super(nomeJ, numeroJ);
+        cruzamento = Probability.generateAttributeValue();
+    }
+
+    public static Lateral parse(String input) {
         String[] campos = input.split(",");
         return new Lateral(campos[0], Integer.parseInt(campos[1]),
                 Integer.parseInt(campos[2]),

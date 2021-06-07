@@ -1,5 +1,7 @@
 package proj;
 
+import utils.function.Probability;
+
 public class Jogador {
 
     private String nomeJogador;
@@ -16,6 +18,18 @@ public class Jogador {
         cabeca = cab;
         remate = rem;
         passe = p;
+    }
+
+    public Jogador(String nomeJ, int numeroJ){
+        nomeJogador = nomeJ;
+        numeroJogador = numeroJ;
+        velocidade = Probability.generateAttributeValue();
+        resistencia = Probability.generateAttributeValue();
+        destreza = Probability.generateAttributeValue();
+        impulsao = Probability.generateAttributeValue();
+        cabeca = Probability.generateAttributeValue();
+        remate = Probability.generateAttributeValue();
+        passe = Probability.generateAttributeValue();
     }
 
     public Jogador(Jogador j) {
