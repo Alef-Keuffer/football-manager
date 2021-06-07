@@ -27,11 +27,11 @@ public class Equipa {
     }
 
     public String toString(){
-        String r =  "Equipa:" + nome + "\n";
+        StringBuilder r = new StringBuilder("Equipa:" + nome + "\n");
         for (Jogador j : jogadores){
-            r += j.toString();
+            r.append(j.toString());
         }
-        return r;
+        return r.toString();
     }
 
 }
