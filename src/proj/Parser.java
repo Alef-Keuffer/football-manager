@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class Parser {
 
-    public static void parse() throws LinhaIncorretaException {
+    public static void parse() throws LinhaIncorretaException, EquipaExcedeuNumeroMaximoDeJogadoresException, EquipaJaTemJogadorComEsseNumeroDeCamisaException {
         List<String> linhas = lerFicheiro("output.txt");
         Map<String, Equipa> equipas = new HashMap<>(); //nome, equipa
         Map<Integer, Jogador> jogadores = new HashMap<>(); //numero, jogador
