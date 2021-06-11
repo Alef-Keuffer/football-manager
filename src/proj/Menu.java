@@ -96,11 +96,11 @@ public class Menu {
         int choice;
         while (true) {
             System.out.println("Football Manager Main Menu\n");
-            System.out.println("1.) Criar equipa");
-            System.out.println("2.) Criar equipa");
-            System.out.println("3.) Associar jogador a uma equipa");
-            System.out.println("4.) Consultar jogador");
-            System.out.println("5.) Consultar equipa");
+            System.out.println("0.) Salvar estado");
+            System.out.println("1.) Criar equipa"); // Players are also registered during this step
+            System.out.println("2.) Consultar equipa"); // Consultar jogador aqui dentro?
+            System.out.println("3.) Realizar jogo");
+            System.out.println("4.) ");
             System.out.println("-1.) Exit");
             System.out.print("\nEscolha sua opção: ");
 
