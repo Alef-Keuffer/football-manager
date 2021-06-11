@@ -94,6 +94,10 @@ public class Menu {
         }
     }
 
+    public static class ConsultorJogador{
+
+    }
+
     public static void start() {
         int choice;
         while (true) {
