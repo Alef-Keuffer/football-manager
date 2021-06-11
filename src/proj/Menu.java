@@ -14,22 +14,7 @@ public class Menu {
 
     }
 
-    public static class CriadorJogador {
-
-        public static Jogador getJogador(int numeroC) {
-            int escolha;
-            String nomeJ;
-            while (true) {
-                escolha = SingleInput.getEscolhaPosicao();
-                nomeJ = SingleInput.getNomeJogador();
-                if (escolha == 1) return new Avancado(nomeJ, numeroC);
-                else if (escolha == 2) return new Defesa(nomeJ, numeroC);
-                else if (escolha == 3) return new Lateral(nomeJ, numeroC);
-                else if (escolha == 4) return new Medio(nomeJ, numeroC);
-                else if (escolha == 5) return new GuardaRedes(nomeJ, numeroC);
-                else System.out.println("Opção não disponível");
-            }
-        }
+    public static class Jogador {
 
         public static class SingleInput{
 
@@ -54,6 +39,30 @@ public class Menu {
                 return input.nextLine();
             }
         }
+        public static class Criador{
+
+            public static proj.Jogador getJogador(int numeroC) {
+                int escolha;
+                String nomeJ;
+                while (true) {
+                    escolha = SingleInput.getEscolhaPosicao();
+                    nomeJ = SingleInput.getNomeJogador();
+                    if (escolha == 1) return new Avancado(nomeJ, numeroC);
+                    else if (escolha == 2) return new Defesa(nomeJ, numeroC);
+                    else if (escolha == 3) return new Lateral(nomeJ, numeroC);
+                    else if (escolha == 4) return new Medio(nomeJ, numeroC);
+                    else if (escolha == 5) return new GuardaRedes(nomeJ, numeroC);
+                    else System.out.println("Opção não disponível");
+                }
+            }
+        }
+
+        public static class ConsultorJogador{
+            public static void displayMenu(){
+                System.out.println("Consultar jogador\n");
+
+            }
+        }
     }
 
     public static class Equipa {
@@ -70,10 +79,10 @@ public class Menu {
 
             public static void criarEquipa() {
                 System.out.println("Uma equipa é composta por, no mínimo, 14 jogadores. Prepare-se para criar sua equipa.");
-                try { equipa.insereJogador(new GuardaRedes(CriadorJogador.SingleInput.getNomeGuardaRedes(), 1)); }
+                try { equipa.insereJogador(new GuardaRedes(Jogador.SingleInput.getNomeGuardaRedes(), 1)); }
                 catch (EquipaExcedeuNumeroMaximoDeJogadoresException | EquipaJaTemJogadorComEsseNumeroDeCamisaException e) { e.printStackTrace(); }
                 for (int i = 2; i <= 14; i++) {
-                    try { equipa.insereJogador(CriadorJogador.getJogador(i)); }
+                    try { equipa.insereJogador(Jogador.Criador.getJogador(i)); }
                     catch (EquipaExcedeuNumeroMaximoDeJogadoresException | EquipaJaTemJogadorComEsseNumeroDeCamisaException e) { e.printStackTrace(); }
                 }
 
@@ -106,13 +115,6 @@ public class Menu {
         }
     }
 
-
-    public static class ConsultorJogador{
-        public static void displayMenu(){
-            System.out.println("Consultar jogador\n");
-
-        }
-    }
 
     public static void start() {
         int choice;
