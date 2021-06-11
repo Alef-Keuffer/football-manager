@@ -85,11 +85,13 @@ public class Menu {
         }
     }
 
-    public static void consultarEquipa() {
-        System.out.println("O que desejas fazer?");
-        System.out.println("1.) Listar jogadores");
-        System.out.println("2.) Calcular habilidade");
+    public static class ConsultorEquipas{
+        public static void consultarEquipa() {
+            System.out.println("O que desejas fazer?");
+            System.out.println("1.) Listar jogadores");
+            System.out.println("2.) Calcular habilidade");
 
+        }
     }
 
     public static void start() {
