@@ -56,8 +56,8 @@ public class Menu {
         }
     }
 
-    public static class CriadorEquipas {
-        static Equipa equipa = getEquipaComNome();
+    public static class Equipa {
+        static proj.Equipa equipa = getEquipaComNome();
 
         public static class SingleInput {
 
@@ -66,47 +66,52 @@ public class Menu {
                 return input.nextLine();
             }
         }
+        public static class Criador{
 
-        public static Equipa getEquipaComNome() {
+            public static void criarEquipa() {
+                System.out.println("Uma equipa é composta por, no mínimo, 14 jogadores. Prepare-se para criar sua equipa.");
+                try { equipa.insereJogador(new GuardaRedes(CriadorJogador.SingleInput.getNomeGuardaRedes(), 1)); }
+                catch (EquipaExcedeuNumeroMaximoDeJogadoresException | EquipaJaTemJogadorComEsseNumeroDeCamisaException e) { e.printStackTrace(); }
+                for (int i = 2; i <= 14; i++) {
+                    try { equipa.insereJogador(CriadorJogador.getJogador(i)); }
+                    catch (EquipaExcedeuNumeroMaximoDeJogadoresException | EquipaJaTemJogadorComEsseNumeroDeCamisaException e) { e.printStackTrace(); }
+                }
+
+                if (equipa.numeroJogadores() == 23) {System.out.println("Equipa atingiu 23 jogadores");}
+                try { world.insereEquipa(equipa); }
+                catch (EquipaComEsseNomeJaExisteException | EquipaNaoTemGoleiroException | EquipaNaoTemNumeroMinimoDeJogadoresException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        public static proj.Equipa getEquipaComNome() {
             String nomeEquipa;
             while (true) {
                 nomeEquipa = SingleInput.getNomeEquipa();
-                if (world.nomeEquipaEstaDisponivel(nomeEquipa)) { return new Equipa(nomeEquipa); }
+                if (world.nomeEquipaEstaDisponivel(nomeEquipa)) { return new proj.Equipa(nomeEquipa); }
                 else { System.out.println("Equipa já existe"); }
             }
         }
 
 
-        public static void criarEquipa() {
-            System.out.println("Uma equipa é composta por, no mínimo, 14 jogadores. Prepare-se para criar sua equipa.");
-            try { equipa.insereJogador(new GuardaRedes(CriadorJogador.SingleInput.getNomeGuardaRedes(), 1)); }
-            catch (EquipaExcedeuNumeroMaximoDeJogadoresException | EquipaJaTemJogadorComEsseNumeroDeCamisaException e) { e.printStackTrace(); }
-            for (int i = 2; i <= 14; i++) {
-                try { equipa.insereJogador(CriadorJogador.getJogador(i)); }
-                catch (EquipaExcedeuNumeroMaximoDeJogadoresException | EquipaJaTemJogadorComEsseNumeroDeCamisaException e) { e.printStackTrace(); }
+        public static class Consultor{
+            public static class SingleInput{
             }
+            public static void consultarEquipa() {
+                System.out.println("O que desejas fazer?");
+                System.out.println("1.) Listar jogadores");
+                System.out.println("2.) Calcular habilidade");
 
-            if (equipa.numeroJogadores() == 23) {System.out.println("Equipa atingiu 23 jogadores");}
-            try { world.insereEquipa(equipa); }
-            catch (EquipaComEsseNomeJaExisteException | EquipaNaoTemGoleiroException | EquipaNaoTemNumeroMinimoDeJogadoresException e) {
-                e.printStackTrace();
             }
         }
     }
 
-    public static class ConsultorEquipas{
-        public static class SingleInput{
-        }
-        public static void consultarEquipa() {
-            System.out.println("O que desejas fazer?");
-            System.out.println("1.) Listar jogadores");
-            System.out.println("2.) Calcular habilidade");
-
-        }
-    }
 
     public static class ConsultorJogador{
+        public static void displayMenu(){
+            System.out.println("Consultar jogador\n");
 
+        }
     }
 
     public static void start() {
@@ -125,7 +130,7 @@ public class Menu {
 
 
             switch (choice) {
-                case 1 -> CriadorEquipas.criarEquipa();
+                case 1 -> Equipa.Criador.criarEquipa();
                 default -> System.out.println("This is not a valid Menu Option! Please Select Another");
             }
         }
